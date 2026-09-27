@@ -1,52 +1,170 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentación de Pau</title>
-    <!-- Enlace al archivo CSS externo -->
-    <link rel="stylesheet" href="/styles/stylesheet.css">
+    <title>Pau - Mi página personal</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
 
+    <nav>
+        <div class="logo">PAU</div>
+
+        <div class="menu">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#aficiones">Aficiones</a>
+            <a href="#habilidades">Habilidades</a>
+        </div>
+    </nav>
+
     <header>
-        <h1>Presentación personal</h1>
+
+        <div class="hero-text">
+
+            <p class="saludo">¡Hola! 👋 Soy</p>
+
+            <h1>Pau</h1>
+
+            <h2>Estudiante de Desarrollo Web</h2>
+
+            <p class="descripcion">
+                Estoy aprendiendo programación y desarrollo web.
+                Esta es mi primera página personal creada con HTML y CSS.
+            </p>
+
+            <a href="#sobre-mi" class="boton">Conóceme</a>
+
+        </div>
+
+        <div class="hero-card">
+            <div class="icono">💻</div>
+            <h3>DAW</h3>
+            <p>Desarrollo de Aplicaciones Web</p>
+        </div>
+
     </header>
 
     <main>
-        <h2>Sobre mí</h2>
 
-        <p>
-            Hola, soy Pau de Modrive. Me considero una persona con
-            personalidad, y con ganas de aprender adonde voy no molesto a nadie 
-            y ya no me pongo babero. por favor y gracias.
-        </p>
+        <section id="sobre-mi">
 
-        <p>
-            Entre mis aficiones y preferencias personales se encuentran
-            las mujeres de complexión grande y con el pelo largo.
-        </p>
+            <p class="etiqueta">SOBRE MÍ</p>
 
-        <h2>Mis habilidades</h2>
+            <h2>¿Quién soy?</h2>
 
-        <p>
-            Una de mis principales habilidades es que sé sumar números
-            hasta 10 con bastante soltura. Además, considero que tengo
-            buena mano para cocinar y disfruto preparando y comiendo
-            diferentes platos.
-        </p>
+            <p>
+                Soy Pau y actualmente estoy estudiando Desarrollo de
+                Aplicaciones Web. Estoy empezando a aprender programación,
+                HTML y CSS y poco a poco quiero mejorar mis conocimientos
+                para poder crear mis propias páginas y aplicaciones.
+            </p>
 
-        <h2>Objetivo</h2>
+        </section>
 
-        <p>
-            Actualmente estoy aprendiendo a sumar 5 numeros mas ya lleho hasta 13.
-        </p>
+        <section id="aficiones">
+
+            <p class="etiqueta">MIS AFICIONES</p>
+
+            <h2>Cosas que me gustan</h2>
+
+            <div class="tarjetas">
+
+                <div class="tarjeta">
+                    <span>🎸</span>
+                    <h3>Música</h3>
+                    <p>
+                        Me gusta escuchar música y aprender a tocar
+                        la guitarra.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <span>🎮</span>
+                    <h3>Videojuegos</h3>
+                    <p>
+                        Disfruto jugando a videojuegos en mi tiempo libre.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <span>💻</span>
+                    <h3>Programación</h3>
+                    <p>
+                        Estoy aprendiendo a programar y a crear páginas web.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="habilidades">
+
+            <p class="etiqueta">HABILIDADES</p>
+
+            <h2>Lo que estoy aprendiendo</h2>
+
+            <div class="habilidades">
+
+                <div class="habilidad">
+
+                    <div class="habilidad-cabecera">
+                        <span>HTML</span>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="barra">
+                        <div class="progreso html"></div>
+                    </div>
+
+                </div>
+
+                <div class="habilidad">
+
+                    <div class="habilidad-cabecera">
+                        <span>CSS</span>
+                        <span>50%</span>
+                    </div>
+
+                    <div class="barra">
+                        <div class="progreso css"></div>
+                    </div>
+
+                </div>
+
+                <div class="habilidad">
+
+                    <div class="habilidad-cabecera">
+                        <span>Programación</span>
+                        <span>30%</span>
+                    </div>
+
+                    <div class="barra">
+                        <div class="progreso programacion"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
-        <p>© 2026 Pau de Modrive</p>
+
+        <div class="logo">PAU</div>
+
+        <p>Mi primera página web · 2026</p>
+
     </footer>
 
 </body>
+
 </html>
+```
